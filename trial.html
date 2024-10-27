@@ -1,0 +1,121 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Store Name</title>
+    <style>
+        /* Basic Styling - Customize to your liking */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url('hero-image.jpg'); 
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-products {
+    padding: 50px 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <a href="#" class="logo">Your Logo</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="cart-icon">Cart (0)</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Your Store</h1>
+                <p>Find the best products at amazing prices.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h3>Product Name</h3>
+                        <p>$19.99</p>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2023 Your Store Name</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>

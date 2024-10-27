@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(blue-background-abstract-background-windows-11-3840x2160-8846.jpg);
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    font-family: "SUSE", sans-serif;
+
+}
+.titleheader{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    backdrop-filter: blur(50px);
+    width: 33.6%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height:120px ;
+
+}
+.h1title{
+    float: left;
+    margin-left: 18px;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.138);
+    color: white;
+    height: 70%;
+    margin-top: 18px;
+    padding-bottom: 3px;
+    font-size: 23px;
+    padding-right: 18px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+
+
+}
+.h1title h1{
+    margin-top: 12px;
+}
+h1{
+    font-family: "Monoton", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.imgtitle{
+    float: right;
+    margin-top: 18px;
+    margin-right: 18px ;
+
+}
+.titleheader img{
+    height: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.topnav {
+    overflow: hidden;
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.138);
+    width: 57%;
+    margin-top: 2.3% ;
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 12px;
+    margin-right: 1px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.2s;
+}
+
+.topnav a.active {
+    background-color: #1F51FF;
+    color: white;
+}
+.homepage{
+    background-color: rgba(255, 255, 255, 0.577);
+    height: 60%;
+    width:90%;
+    margin-top: 10%;
+    float: inline-start;
+    margin-left: 5%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.Homepagebutton{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 12px;
+    margin-right: 1px;
+    margin-left: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: #00000000;
+}
+
+.Homepagebutton:hover{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    transition: 0.1s;
+    border:10px white solid;
+    cursor: pointer;
+}
+
+.top{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 18%;
+}
+
+.side{
+    margin-left: 7%;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 4%;
+}
+
+img{
+    width: 25%;
+    float: right;
+    margin-top: -10%;
+    margin-right: 42%;
+    border-radius: 10px;
+}
+video{
+    float: right;
+    margin-top: -20%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
